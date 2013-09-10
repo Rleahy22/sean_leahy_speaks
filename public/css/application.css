@@ -8,14 +8,22 @@ html {
 	margin: auto;
 }
 
+.footer {
+	width: 900px;
+	margin: auto;
+	background: -webkit-linear-gradient(bottom, #696969, 	#C3C3C3);
+}
+
 img {
 	margin-top: 0;
 	margin-bottom: 0;
 	border-top: 1px solid #FFFFFF;
-	border-bottom: 2px solid #FFFFFF;
+	border-bottom: 3px solid #FFFFFF;
 }
 
 .nav {
+	margin-top: 0;
+	background: -webkit-linear-gradient(bottom, #696969, 	#C3C3C3);
 	width: 100%;
 }
 
@@ -37,9 +45,8 @@ li:last-child {
 li {
   list-style: none;
   display: inline-block;
-  padding: 10px 5px 10px 5px;
-  margin: -2px;
-  background: -webkit-linear-gradient(bottom, #696969, 	#C3C3C3); 
+  padding: 10px 5px 15px 5px;
+  margin: -2px; 
 }
 
 .bar {
@@ -67,8 +74,8 @@ a {
 
 .dont {
 	float: left;
-	width: 50%;
-	margin-left: 25px;
+	width: 425px;
+	padding-left: 25px;
 }
 
 .pitch {
@@ -124,5 +131,11 @@ h3 {
 }
 
 .order {
+	width: 450px;
 	float: right;
+}
+
+#tips {
+	color: #FFFFFF;
+	margin-right: 25px;
 }
