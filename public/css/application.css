@@ -64,3 +64,65 @@ a {
 	width: 900px;
 	background: -webkit-radial-gradient(circle, #1a497f, 	#184984);
 }
+
+.dont {
+	float: left;
+	width: 50%;
+	margin-left: 25px;
+}
+
+.pitch {
+	color: #FFFFFF;
+	font-family: "Arial", Sans-serif;
+}
+
+h1 {
+	font-size: 16pt;
+	float: left;
+	margin-bottom: 0;
+}
+
+.hire {
+	color: #D8CEC2;
+	margin-right: 6px;
+}
+
+h2 {
+	clear: both;
+	font-size: 12pt;
+}
+
+#unless {
+	margin-top: 0;
+}
+
+h3 {
+	font-size: 10pt;
+	margin-bottom: 1px;
+	margin-top: 10px;
+}
+
+.only {
+	float: left;
+}
+
+.unindented {
+	margin-bottom: 0;
+}
+
+.indented {
+	margin-top: 0;
+	margin-left: 13px;
+}
+
+#streets {
+	margin-bottom: 0;
+}
+
+#then {
+	margin-top: 30px;
+}
+
+.order {
+	float: right;
+}
