@@ -7,7 +7,7 @@ body {
 	width: 900px;
 	margin: auto;
 	border-left: 1px solid white;
-	box-shadow: 5px 1px 5px gray
+	box-shadow: 0 0 10px gray
 }
 
 img {
@@ -337,5 +337,5 @@ hr {
 	float: right;
 	margin: 85px 115px 0 0;
 	border: 1px solid white;
-	box-shadow: 1px 1px 1px gray;
+	box-shadow: 0 0 10px gray;
 }
