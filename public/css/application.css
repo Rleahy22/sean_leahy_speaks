@@ -34,16 +34,16 @@ ul {
 	width: 100%;
 }
 
-li:first-child {
+.nav-li:first-child {
 	margin-left: 0.5px;
 	padding-left: 15px
 }
 
-li:last-child {
+.nav-li:last-child {
 	padding-right: 15px
 }
 
-li {
+.nav-li {
   list-style: none;
   display: inline-block;
   padding: 10px 8px 15px 8px;
@@ -51,7 +51,7 @@ li {
   color: #FFFFFF;
 }
 
-li:hover {
+.nav-link:hover {
 	background: -webkit-linear-gradient(bottom, #2e4f78, 	#9aacc2);
 	padding-bottom: 12px;
 }
@@ -206,16 +206,16 @@ h3 {
 }
 
 .footer {
+	border-top: 1px solid white;
 	width: 900px;
-	/*height: 28px;*/
-	margin: 0 auto;
+	margin: 0 auto 0 auto;
 	background: -webkit-linear-gradient(bottom, #696969, 	#C3C3C3);
 }
 
-p {
+#footer-p {
 	margin: 0 0 0 10px;
 	padding: 5px 0;
-	color: #FFFFFF;
+	color: white;
 	font-size: 7pt;
 }
 
@@ -262,6 +262,7 @@ p {
 }
 
 #customize {
+	color: #FFFFFF;
 	font-size: 12pt;
 	text-align: center;
 	margin: 10px 0 0 0;
@@ -271,6 +272,8 @@ p {
 }
 
 #inquire {
+	padding: 5px 0;
+	color: #FFFFFF;
 	width: 225px;
 	clear: both;
 	margin: auto;
@@ -295,11 +298,14 @@ hr {
 	font-size: 14pt;
 }
 
-.about-div {
+.dynamic-div {
 	border-top: solid 2px white;
 	border-bottom: solid 2px white;
 	background-color: #e6e6e6;
-	padding-bottom: 38%
+}
+
+#about-div {
+	padding-bottom: 40%
 }
 
 #about-you {
@@ -308,19 +314,22 @@ hr {
 	display: inline-block;
 }
 
-#you {
-	width: 115px;
+.dynamic-header {
 	padding: 3px;
 	color: white;
 	background: -webkit-linear-gradient(bottom, #3b6fa9, #1d4e88); 
 	font-size: 14pt;
-	margin-left: 10px
+}
+
+#you {
+	width: 115px;
+	margin-left: 10px; 
 }
 
 #business-first {
 	width: 330px;
 	color: #193165;
-	margin: 0 auto 10px auto;
+	margin: 10px auto 10px auto;
 	font-style: italic;
 }
 
@@ -328,7 +337,9 @@ hr {
 	color: #193165;
 	font-size: 10pt;
 	margin-bottom: 10px;
-	line-height: 16px
+	line-height: 16px;
+	margin: 0 0 0 10px;
+	padding: 5px 0;
 }
 
 #dad-jacket {
@@ -338,4 +349,50 @@ hr {
 	margin: 85px 115px 0 0;
 	border: 1px solid white;
 	box-shadow: 0 0 10px gray;
+}
+
+.topics-left {
+	width: 550px;
+	margin: 0 0 30px 20px;
+	display: inline-block;
+}
+
+#topics-header {
+	width: 70px;
+}
+
+.topics-sub {
+	color: red;
+	font-size: 10pt;
+	margin: 20px 0;
+}
+
+.subheading {
+	font-style: italic;
+	font-size: 10pt;
+	margin-bottom: 0;
+}
+
+.topics-p {
+	margin-top: 0;
+	color: #193165;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+#superstars {
+	margin-bottom: 0;
+}
+
+.topics-ul {
+	color: #193165;
+	font-size: 10pt;
+	font-weight: bold;
+	margin: 0 0 10px 50px;
+}
+
+.topics-right {
+	width: 300px;
+	height: 1000px;
+	float: right;
 }

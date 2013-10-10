@@ -8,6 +8,11 @@ get '/about' do
 	erb :about
 end
 
+get '/topics' do
+
+	erb :topics
+end
+
 not_found do
 	
 	erb :fourofour
