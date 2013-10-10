@@ -412,3 +412,32 @@ hr {
 	float: right;
 	margin: 80px 95px 0 0;
 }
+
+.video-div {
+	margin: 8px 0 420px 20px;
+}
+
+#video-header {
+	width: 60px;
+}
+
+#video {
+	width: 560px;
+	margin: auto;
+}
+
+#not-playing {
+	width: 100px;
+	margin: auto;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+#help {
+	width: 100px;
+	margin: auto;
+	font-size: 8pt;
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+}
