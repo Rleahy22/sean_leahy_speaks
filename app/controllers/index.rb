@@ -23,6 +23,11 @@ get '/video' do
 	erb :video
 end
 
+get '/handouts' do
+
+	erb :handouts
+end
+
 not_found do
 	
 	erb :fourofour

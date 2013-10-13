@@ -441,3 +441,67 @@ hr {
 	font-weight: bold;
 	text-decoration: underline;
 }
+
+.handouts-div {
+	margin: 15px 0 0 0;
+}
+
+#handouts-header {
+	width: 105px;
+	margin: 0 10px 20px 20px;
+	display: inline-block;
+}
+
+#enlarge {
+	display: inline-block;
+	color: #043071;
+	font-size: 8pt
+}
+
+.row {
+	text-align: center;
+}
+
+#row1 div{
+	margin: 5px 30px;
+}
+
+#row2 div {
+	margin: 10px 20px;
+}
+
+#row3 div {
+	margin: 10px 15px;
+}
+
+#row4 div{
+	margin: 10px 50px;
+}
+
+#row5 div {
+	margin: 10px 60px 20px 60px;
+}
+
+.handouts {
+	width: 185px;
+	text-align: center;
+	display: inline-block;
+}
+
+.thin {
+	width: 120px;
+}
+
+.handout-title {
+	color: #043071;
+	font-weight: bold;
+}
+
+.tall {
+	font-size: 9pt;
+}
+
+.handout-images {
+	height: 140px;
+	width: auto;
+}
