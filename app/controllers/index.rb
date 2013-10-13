@@ -28,6 +28,11 @@ get '/handouts' do
 	erb :handouts
 end
 
+get '/testimonials' do
+
+	erb :testimonials
+end
+
 not_found do
 	
 	erb :fourofour
