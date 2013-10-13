@@ -33,6 +33,11 @@ get '/testimonials' do
 	erb :testimonials
 end
 
+get '/contact' do
+
+	erb :contact
+end
+
 not_found do
 	
 	erb :fourofour
