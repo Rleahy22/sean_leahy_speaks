@@ -515,7 +515,8 @@ hr {
 }
 
 #testimonials-header {
-	width: 140px;
+	width: 138px;
+	margin: 10px 0 25px 10px;
 }
 
 .testimonial {
