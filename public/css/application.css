@@ -742,3 +742,50 @@ hr {
 	margin: auto;
 	width: 305px;
 }
+
+/*Sign Up*/
+
+.signup-page-div {
+	padding-bottom: 642px;
+}
+
+#signup-header {
+	width: 77px;
+	margin: 20px 0 0 20px;
+}
+
+#signup-p {
+	width: 780px;
+	font-family: sans-serif;
+	font-size: 10pt;
+	margin: 20px 0 20px 20px;
+}
+
+.signup-div {
+	width: 190px;
+	text-align: center;
+	margin: auto;
+}
+
+#signup-last {
+	color: black;
+	text-decoration: underline;
+	font-family: sans-serif;
+	font-size: 10pt;
+	font-weight: normal
+}
+
+#signup-bottom {
+	color: #939393;
+	font-size: 8pt;
+	margin-top: 0;
+}
+
+#safesubscribe {
+	margin-bottom: 0;
+}
+
+#marketing {
+	color: #939393;
+	font-weight: normal
+}
