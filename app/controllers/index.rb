@@ -48,6 +48,11 @@ get '/salesshot' do
 	erb :salesshot
 end
 
+get '/sales-checklist' do
+
+	erb :sales_checklist
+end
+
 not_found do
 	
 	erb :fourofour

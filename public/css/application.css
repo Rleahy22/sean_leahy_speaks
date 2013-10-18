@@ -392,6 +392,7 @@ hr {
 .topics-left {
 	width: 550px;
 	margin: 8px 0 30px 20px;
+	padding-bottom: 140px;
 	display: inline-block;
 }
 
@@ -800,4 +801,48 @@ hr {
 #marketing {
 	color: #939393;
 	font-weight: normal
+}
+
+.checklist-left {
+	width: 460px;
+	display: inline-block;
+	padding-bottom: 50px
+}
+
+#checklist-header {
+	color: #193165;
+	font-size: 12pt;
+	margin: 20px 20px;
+}
+
+#checklist-image {
+	margin: 20px 0 0 50px;
+}
+
+.checklist-right {
+	width: 335px;
+	display: inline-block;
+	float: right;
+	margin: 65px 90px 0 0;
+}
+
+#includes {
+	font-size: 12pt
+}
+
+#checklists {
+	margin: 15px 0 0 20px;
+	color: #193165;
+}
+
+#checklists li {
+	margin: 10px 0;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 13pt
+}
+
+#paypal-cart {
+	margin: 20px auto;
+	width: 125px;
 }
