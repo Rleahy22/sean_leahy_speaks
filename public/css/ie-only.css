@@ -708,7 +708,7 @@ hr {
 }
 
 .sales-p {
-	font-family: sans-serif;
+	font-family: "Arial", Sans-serif;
 	font-size: 15px;
 	font-weight: bold;
 }
@@ -778,7 +778,7 @@ hr {
 
 #signup-p {
 	width: 780px;
-	font-family: sans-serif;
+	font-family: "Arial", Sans-serif;
 	font-size: 10pt;
 	font-weight: bold;
 	margin: 20px 0 20px 20px;
@@ -793,7 +793,7 @@ hr {
 #signup-last {
 	color: black;
 	text-decoration: underline;
-	font-family: sans-serif;
+	font-family: "Arial", Sans-serif;
 	font-size: 10pt;
 	font-weight: bold;
 }
