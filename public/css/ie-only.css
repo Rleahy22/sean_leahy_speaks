@@ -44,17 +44,17 @@ ul {
 
 .nav-li:first-child {
 	margin-left: 0.5px;
-	padding-left: 11px
+	padding-left: 9px
 }
 
 .nav-li:last-child {
-	padding-right: 11px
+	padding-right: 9px
 }
 
 .nav-li {
   list-style: none;
   display: inline-block;
-  padding: 10px 8px 15px 8px;
+  padding: 10px 9px 15px 9px;
   margin: -2px;
   color: #FFFFFF;
 }
