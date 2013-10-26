@@ -847,3 +847,127 @@ hr {
 	margin: 20px auto;
 	width: 125px;
 }
+
+/*Firefox*/
+
+@-moz-document url-prefix(http://localhost:6969/) {
+  
+	/*Layout*/
+
+  .links {
+     font-size: 12px;
+  }
+  .nav-li:first-child {
+		margin-left: 0.5px;
+		padding-left: 20px
+	}
+	.nav-li:last-child {
+		padding-right: 23px
+	}
+
+	/*Index*/
+
+	#tips {
+		font-size: 16px
+	}
+	.bulk {
+		font-size: 16px
+	}
+	#inquire {
+		font-size: 12px
+	}
+
+	/*About You*/
+
+	#you {
+		font-size: 18px;
+		font-family: Arial;
+	}
+	.abouts {
+		font-size: 13px;
+		font-family: Arial;
+	}
+	#business-first {
+		font-family: Arial;
+		font-size: 12px
+	}
+	#about-div {
+		padding-bottom: 384px
+	}
+	.dynamic-header {
+		font-size: 17px;
+	}
+
+	/*Topics*/
+
+	.subheading {
+		font-size: 12px;
+	}
+	.topics-sub {
+		font-size: 12px;
+	}
+	.dynamic-p {
+		font-size: 12px;
+	}
+
+	/*Guarantee*/
+
+	#guarantee-header {
+		width: 394px;
+	}
+	.guarantee-left {
+		margin-bottom: 535px;
+	}
+
+	/*Video*/
+
+	#not-playing {
+		font-size: 10px;
+		width: 120px;
+	}
+	#help {
+		font-size: 10px
+	}
+
+	/*Handouts*/
+
+	/*Testimonials*/
+
+	#testimonials-header {
+		width: 140px;
+	}
+
+	.testimonial {
+		font-size: 12px;
+	}
+
+	/*Sales Shot*/
+
+	.sales-p {
+		font-size: 12px;
+	}
+	.sales-bold {
+		font-size: 15px
+	}
+	.sales-regular {
+		font-size: 15px
+	}
+	.signup-link {
+		font-size: 14px;
+	}
+	#bottom-signup {
+		width: 350px
+	}
+
+	/*Signup*/
+
+	#signup-header {
+		width: 80px;
+	}
+	#signup-p {
+		font-size: 12px
+	}
+	#signup-bottom {
+		font-size: 10px
+	}
+}
