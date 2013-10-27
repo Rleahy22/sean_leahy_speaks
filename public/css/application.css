@@ -877,7 +877,7 @@ hr {
 
 /*Firefox*/
 
-@-moz-document url-prefix(http://localhost:9393/) {
+@-moz-document url-prefix(http://slsdevelopment.herokuapp.com/) {
   
 	/*Layout*/
 
