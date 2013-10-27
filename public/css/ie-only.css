@@ -589,6 +589,7 @@ hr {
 
 .bubble1 {
 	background-image: url('../images/bubble1.png');
+	height: 90px;
 }
 
 .bubble2 {
