@@ -594,34 +594,42 @@ hr {
 
 .bubble2 {
 	background-image: url('../images/bubble2.png');
+	height: 45px;
 }
 
 .bubble3 {
 	background-image: url('../images/bubble3.png');
+	height: 60px;
 }
 
 .bubble4 {
 	background-image: url('../images/bubble4.png');
+	height: 75px;
 }
 
 .bubble5 {
 	background-image: url('../images/bubble5.png');
+	height: 90px;
 }
 
 .bubble16 {
 	background-image: url('../images/bubble16.png');
+	height: 255px;
 }
 
 .bubble18 {
 	background-image: url('../images/bubble18.png');
+	height: 285px;
 }
 
 .bubble21 {
 	background-image: url('../images/bubble21.png');
+	height: 330px;
 }
 
 .bubble33 {
 	background-image: url('../images/bubble33.png');
+	height: 510px;
 }
 
 .bubble:before {
