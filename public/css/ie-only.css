@@ -580,7 +580,6 @@ hr {
 .bubble {
 	position: relative;
 	width: 405px;
-
 	border-radius: 25px;
 	box-shadow: 0 0 2px gray;
 	padding: 30px 15px;
