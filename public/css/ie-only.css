@@ -587,6 +587,46 @@ hr {
 	margin-bottom: 10px;
 }
 
+.bubble1 {
+	height: 90px;
+}
+
+.bubble1 {
+	height: 90px;
+}
+
+.bubble2 {
+	height: 105px;
+}
+
+.bubble3 {
+	height: 120px;
+}
+
+.bubble4 {
+	height: 135px;
+}
+
+.bubble5 {
+	height: 150px;
+}
+
+.bubble16 {
+	height: 315px;
+}
+
+.bubble18 {
+	height: 345px;
+}
+
+.bubble21 {
+	height: 390px;
+}
+
+.bubble33 {
+	height: 570px;
+}
+
 .bubble:before {
 	content: ' ';
 	position: absolute;
