@@ -133,7 +133,7 @@ a {
 
 .main {
 	border-top: 2px solid #FFFFFF;
-	height: 700px;
+	height: 750px;
 	width: 900px;
 	background: -webkit-radial-gradient(circle, #1a497f, 	#184984);
 	background: -moz-radial-gradient(circle, #1a497f, #184984);
@@ -201,7 +201,7 @@ h3 {
 .break {
 	background-color: #C2EBFF;
 	width: 2px;
-	height: 550px;
+	height: 590px;
 	margin-top: 85px;
 	float: left;
 }
@@ -219,14 +219,28 @@ h3 {
 
 .quantity {
 	float: left;
-	width: 250px;
+	width: 240px;
 	margin: 0 0 10px 0;
 }
 
 #book {
 	width: 250px;
 	height: auto;
-	margin-bottom: -20px;
+	margin-bottom: -10px;
+}
+
+#book-review {
+	width: 200px;
+	margin-left: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+}
+
+.review-source {
+	font-style: italic;
+	font-weight: bold;
+	margin: 0;
 }
 
 #off {
@@ -241,17 +255,22 @@ h3 {
 	text-align: center;
 	color: #FFFFFF;
 	font-size: 14pt;
-	margin: 0 auto;
+	margin: 0;
 }
 
 .vert-bar {
 	margin: 0 10px;
 }
 
+#save {
+	margin-bottom: 40px;
+}
+
 .buy-now {
 	float: left;
-	margin-top: 35px;
+	margin: 40px 10px 0 0;
 	width: 198px;
+	text-align: center;
 }
 
 .order-links {
@@ -261,7 +280,7 @@ h3 {
 
 #amazon {
 	width: 148px;
-	border-radius: 15px
+	border-radius: 15px;
 }
 
 #barnes {
@@ -271,20 +290,11 @@ h3 {
 	border-radius: 10px; 
 }
 
-#from-sean {
-	width: 148px;
-	background-color: white;
-	color: black;
-	border-radius: 10px;
-	padding: 5px;
-	font-weight: bolder;
-}
-
 #customize {
 	color: #FFFFFF;
 	font-size: 12pt;
 	text-align: center;
-	margin: 10px 0 0 0;
+	margin: 20px auto;
 	width: 148px;
 	font-style: italic;
 	font-weight: bold;
@@ -522,7 +532,7 @@ hr {
 }
 
 #row3 div {
-	margin: 10px 15px;
+	margin: 10px 25px;
 }
 
 #row4 div{
@@ -767,6 +777,15 @@ hr {
 .signup-link {
 	color: #3f7fcf;
 	text-decoration: underline;
+}
+
+#survey-div {
+	margin: 0 auto 20px auto;
+	width: 600px;
+}
+
+#survey {
+	width: 600px;
 }
 
 #sales-break {
