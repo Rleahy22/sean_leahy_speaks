@@ -580,51 +580,48 @@ hr {
 .bubble {
 	position: relative;
 	width: 405px;
-	background-image: url('../images/bubble1.png');
+
 	border-radius: 25px;
 	box-shadow: 0 0 2px gray;
 	padding: 30px 15px;
 	margin-bottom: 10px;
 }
 
-.bubble1 {
-	height: 90px;
-}
 
 .bubble1 {
-	height: 90px;
+	background-image: url('../images/bubble1.png');
 }
 
 .bubble2 {
-	height: 105px;
+	background-image: url('../images/bubble2.png');
 }
 
 .bubble3 {
-	height: 120px;
+	background-image: url('../images/bubble3.png');
 }
 
 .bubble4 {
-	height: 135px;
+	background-image: url('../images/bubble4.png');
 }
 
 .bubble5 {
-	height: 150px;
+	background-image: url('../images/bubble5.png');
 }
 
 .bubble16 {
-	height: 315px;
+	background-image: url('../images/bubble16.png');
 }
 
 .bubble18 {
-	height: 345px;
+	background-image: url('../images/bubble18.png');
 }
 
 .bubble21 {
-	height: 390px;
+	background-image: url('../images/bubble21.png');
 }
 
 .bubble33 {
-	height: 570px;
+	background-image: url('../images/bubble33.png');
 }
 
 .bubble:before {
