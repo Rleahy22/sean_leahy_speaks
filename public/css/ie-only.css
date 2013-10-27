@@ -580,7 +580,7 @@ hr {
 .bubble {
 	position: relative;
 	width: 405px;
-	background: url('images/bubble1.png');
+	background-image: url('../images/bubble1.png');
 	border-radius: 25px;
 	box-shadow: 0 0 2px gray;
 	padding: 30px 15px;
