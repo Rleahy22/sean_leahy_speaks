@@ -875,6 +875,9 @@ hr {
   .links {
      font-size: 12px;
   }
+  .nav-li {
+  	margin: -2px;
+  }
   .nav-li:first-child {
 		margin-left: 0.5px;
 		padding-left: 20px
