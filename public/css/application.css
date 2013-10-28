@@ -42,13 +42,30 @@ ul {
 	width: 100%;
 }
 
-.nav-li:first-child {
-	margin-left: 0.5px;
-	padding-left: 8px
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    /* Safari and Chrome */
+    .nav-li:first-child {
+			margin-left: 0.5px;
+			padding-left: 10px
+		}
+
+    /* Safari only override */
+    ::i-block-chrome,.nav-li:first-child {
+	  	padding-left: 7px
+    }
 }
 
-.nav-li:last-child {
-	padding-right: 8px
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    /* Safari and Chrome */
+    .nav-li:last-child {
+			margin-left: 0.5px;
+			padding-right: 10px
+		}
+
+    /* Safari only override */
+    ::i-block-chrome,.nav-li:last-child {
+	  	padding-right: 7px
+    }
 }
 
 .nav-li {
