@@ -47,8 +47,16 @@ ul {
 	padding-left: 10px
 }
 
+::i-block-chrome,.nav-li:first-child {
+	padding-left: 8px
+}
+
 .nav-li:last-child {
 	padding-right: 10px
+}
+
+::i-block-chrome,.nav-li:last-child {
+	padding-right: 8px
 }
 
 .nav-li {
@@ -401,7 +409,7 @@ hr {
 .topics-left {
 	width: 550px;
 	margin: 8px 0 30px 20px;
-	padding-bottom: 140px;
+	padding-bottom: 160px;
 	display: inline-block;
 }
 
