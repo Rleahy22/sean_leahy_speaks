@@ -47,16 +47,20 @@ ul {
 	padding-left: 10px
 }
 
-::i-block-chrome,.nav-li:first-child {
-	padding-left: 8px
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	::i-block-chrome,.nav-li:first-child {
+		padding-left: 8px
+	}
 }
 
 .nav-li:last-child {
 	padding-right: 10px
 }
 
-::i-block-chrome,.nav-li:last-child {
-	padding-right: 8px
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	::i-block-chrome,.nav-li:last-child {
+		padding-right: 8px
+	}
 }
 
 .nav-li {
