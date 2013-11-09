@@ -397,7 +397,7 @@ hr {
 .topics-left {
 	width: 550px;
 	margin: 8px 0 30px 20px;
-	padding-bottom: 160px;
+	padding-bottom: 190px;
 	display: inline-block;
 }
 
@@ -848,7 +848,7 @@ hr {
 
 /*Firefox*/
 
-@-moz-document url-prefix(http://slsdevelopment.herokuapp.com/) {
+@-moz-document url-prefix(http://seanleahy.com/) {
   
 	/*Layout*/
 
