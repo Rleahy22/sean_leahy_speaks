@@ -157,6 +157,10 @@ a {
 	margin-bottom: 20px;
 }
 
+#index-video {
+	margin: 20px 0 0 12px;
+}
+
 .dont-header {
 	font-size: 16pt;
 	float: left;
@@ -318,10 +322,11 @@ hr {
 
 
 #checklist {
-	margin: 10px 0 0 10px;
+	margin: 10px 10px 0 0;
 }
 
 #checklist-img {
+	margin-top: 20px;
 	display: inline-block;
 }
 
@@ -477,22 +482,6 @@ hr {
 	width: 560px;
 	margin: auto;
 	text-align: center;
-}
-
-#not-playing {
-	width: 100px;
-	margin: auto;
-	font-size: 8pt;
-	font-weight: bold;
-}
-
-#help {
-	width: 100px;
-	margin: auto;
-	font-size: 8pt;
-	color: blue;
-	font-weight: bold;
-	text-decoration: underline;
 }
 
 /*Handouts*/

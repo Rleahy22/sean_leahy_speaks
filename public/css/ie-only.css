@@ -137,6 +137,8 @@ a {
 	width: 900px;
 	background: -webkit-radial-gradient(circle, #1a497f, 	#184984);
 	background: -moz-radial-gradient(circle, #1a497f, #184984);
+	background: -ms-radial-gradient(center, #1a497f, #184984);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a497f', endColorstr='#184984',GradientType=1 );
 	background-color: #194981;
 }
 
@@ -156,6 +158,10 @@ a {
 	font-weight: bold;
 	font-size: 16px;
 	margin-bottom: 20px;
+}
+
+#index-video {
+	margin: 20px 0 0 12px;
 }
 
 .dont-header {
@@ -319,10 +325,11 @@ hr {
 
 
 #checklist {
-	margin: 10px 0 0 10px;
+	margin: 10px 10px 0 0;
 }
 
 #checklist-img {
+	margin-top: 20px;
 	display: inline-block;
 }
 
@@ -482,22 +489,6 @@ hr {
 	width: 560px;
 	margin: auto;
 	text-align: center;
-}
-
-#not-playing {
-	width: 120px;
-	margin: auto;
-	font-size: 8pt;
-	font-weight: bold;
-}
-
-#help {
-	width: 100px;
-	margin: auto;
-	font-size: 8pt;
-	color: blue;
-	font-weight: bold;
-	text-decoration: underline;
 }
 
 /*Handouts*/
