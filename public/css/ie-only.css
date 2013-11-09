@@ -144,7 +144,7 @@ a {
 
 .dont {
 	float: left;
-	width: 424px;
+	width: 440px;
 }
 
 #pitch-ul {
@@ -161,7 +161,7 @@ a {
 }
 
 #index-video {
-	margin: 20px 0 0 12px;
+	margin: 20px 0 0 20px;
 }
 
 .dont-header {
@@ -211,7 +211,7 @@ h3 {
 }
 
 .order {
-	width: 448px;
+	width: 456px;
 	float: right;
 }
 
@@ -325,11 +325,11 @@ hr {
 
 
 #checklist {
-	margin: 10px 10px 0 0;
+	margin: 10px 0 0 0;
 }
 
 #checklist-img {
-	margin-top: 20px;
+	margin: 20px 0 0 5px;
 	display: inline-block;
 }
 
@@ -341,7 +341,7 @@ hr {
 	font-weight: bolder;
 	font-size: 14pt;
 	float: right;
-	margin: 60px 10px 0 0;
+	margin: 60px 15px 0 0;
 	box-shadow: 2px 2px 3px black;
 }
 
