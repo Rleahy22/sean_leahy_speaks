@@ -463,7 +463,7 @@ hr {
 /*Video*/
 
 .video-div {
-	margin: 8px 0 420px 20px;
+	margin: 8px 0 330px 20px;
 }
 
 #video-header {
@@ -471,9 +471,8 @@ hr {
 }
 
 #video {
-	width: 560px;
-	margin: auto;
-	text-align: center;
+	width: 700px;
+	margin: 50px auto;
 }
 
 /*Handouts*/
