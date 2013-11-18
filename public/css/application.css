@@ -135,8 +135,7 @@ a {
 	border-top: 2px solid #FFFFFF;
 	height: 750px;
 	width: 900px;
-	background: -webkit-radial-gradient(circle, #1a497f, 	#184984);
-	background: -moz-radial-gradient(circle, #1a497f, #184984);
+	background: #194981
 }
 
 .dont {
