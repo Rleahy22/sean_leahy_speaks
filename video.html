@@ -10,6 +10,7 @@
   <![endif]-->
   <link rel="shortcut icon" href="http://www.seanleahy.com/favicon.ico" type="image/x-icon" />
   <title>Sean Leahy Speaks</title>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -41,7 +42,7 @@
 			<div class="video-div">
 				<h1 class="dynamic-header" id="video-header">VIDEO</h1>
 				<div id="video">
-					<iframe width="700" height="394" src="//www.youtube.com/embed/PCy4f99hxEc" frameborder="0" allowfullscreen id="video-youtube"></iframe>
+					<img src="images/vidthumbnail.jpg" id="thumbnail">
 				</div>
 			</div>
 		</div>
@@ -50,4 +51,11 @@
     </div>
   </div>
 </body>
+<script>
+   $(document).ready(function() {
+      $("#video").click(function() {
+        $("#video").html('<iframe width="700" height="394" src="//www.youtube.com/embed/PCy4f99hxEc?autoplay=1" frameborder="0" allowfullscreen id="video-youtube"></iframe>');
+      });
+    });
+</script>
 </html>

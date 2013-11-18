@@ -160,6 +160,11 @@ a {
 	margin: 20px 0 0 20px;
 }
 
+#index-thumbnail {
+	width: 400px;
+	height: 225px;
+}
+
 .dont-header {
 	font-size: 16pt;
 	float: left;
@@ -472,6 +477,11 @@ hr {
 #video {
 	width: 700px;
 	margin: 50px auto;
+}
+
+#thumbnail {
+	width: 700px;
+	height: 394px;
 }
 
 /*Handouts*/
