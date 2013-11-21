@@ -83,8 +83,20 @@
 <script>
    $(document).ready(function() {
       $("#index-video").click(function() {
-        $("#index-video").html('<iframe width="400" height="225" src="//www.youtube.com/embed/PCy4f99hxEc?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+        // $("#index-video").html('<iframe width="400" height="225" src="//www.youtube.com/embed/PCy4f99hxEc?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+	      $('body').append('<div class="opaque"></div>')
+	      $('body').append('<div class="player"><button id="close">X</button></div><iframe id="index-vid" width="700" height="394" src="//www.youtube.com/embed/PCy4f99hxEc?autoplay=1" frameborder="0" allowfullscreen></iframe>')
+	      $( "#close" ).animate({
+			    left: "+=800",
+			  }, 1, function() {
+			    // Animation complete.
+			  });
       });
+      $('body').on('click', '#close', function(){
+      	$('.opaque').remove();
+      	$('.player').remove();
+      	$('#index-vid').remove()
+      })
     });
 </script>
 </html>
